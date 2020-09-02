@@ -1,0 +1,41 @@
+.body{
+  font-family: 'Actor', sans-serif;
+  font-size: 17px;
+}
+
+@media (min-width: 992px) {
+.rotateimg220 {
+  -webkit-transform:rotate(-30deg);
+  -moz-transform: rotate(-30deg);
+  -ms-transform: rotate(-30deg);
+  -o-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+}
+.card{
+  padding: 5px;
+  min-height: 200px;
+}
+}
+#tm-section-2{
+  padding: 20px;
+}
+.sec4{
+  margin-top: 30px;
+}
+.sec2{
+  padding-top: 30px;
+}
+nav{
+  font-family: 'Concert One', cursive;
+  font-size: 20px;
+}
+.container .navbar-brand{
+  font-size: 35px;
+  font-family: 'Aclonica', sans-serif;
+}
+.changecolor{
+  color: #cc0064;
+}
+.links li a{
+  color: white
+}
