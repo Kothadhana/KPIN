@@ -9,18 +9,20 @@
     <link rel="stylesheet" href="css/tooplate-style.css">
     <title>KPIN.IN</title>
     <!--
-
     Template 2107 New Spot
-
 	http://www.tooplate.com/view/2107-new-spot
-
     -->
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Actor&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/navigation.css">
     <link rel="stylesheet" href="css/style.css">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" integrity="sha384-3Nqiqht3ZZEO8FKj7GR1upiI385J92VwWNLj+FqHxtLYxd9l+WYpeqSOrLh0T12c" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
@@ -44,9 +46,11 @@ $(document).ready(function() {
 				 $('.navbar-wrap').css('height', navbar_height + 'px');
                  $('#navbar_top').addClass("fixed-top");
                  $('#navbar_top').removeClass("bg-primary");
-                    $('.navbar-wrap').css('background', 'transparent');
+                    $('#navbar_top').addClass("bg-white");
+                $('.bg-white').addClass("shadow-lg");
                  $(".nav-link , .navbar-brand").css('color','#cc0064');
             }else{
+                $('#navbar_top').removeClass("bg-white");
               $('#navbar_top').addClass("bg-primary");
               $('#navbar_top').removeClass("fixed-top");
               $('.navbar-wrap').css('height', 'auto');
@@ -130,7 +134,7 @@ $(document).ready(function() {
                         <p class="mb-4">Copy your unique URL and share it with your audience on your favourite platforms.</p>
 
                         <p class="text-right mb-0">
-                            <a href="#tm-section-3" class="btn tm-btn-secondary btn-primary">Continue...</a>
+                            <a href="#" class="btn tm-btn-secondary btn-primary">Get Started</a>
                         </p>
                     </div>
                     <div class="col-xl-4 col-lg-4 tm-circle-img-container">
@@ -139,8 +143,8 @@ $(document).ready(function() {
                 </div>
             </div>
         </section>
-        <section id="tm-section-3" class="tm-section tm-section-3">
-            <div class="conta`iner">
+        <section id="tm-section-3" class="tm-section tm-section-3" style="text-align: center">
+            <div class="container">
                 <div class="row">
                     <div class="col-sm-12 tm-section-2-right">
                         <div class="tm-bg-circle-white tm-bg-circle-pad-2 tm-flex-center-v shadow-lg p-3 mb-5">
@@ -235,52 +239,42 @@ $(document).ready(function() {
 <footer id="footer" class="bg-primary " style="color: white !important; margin: 20px; padding: 20px;">
   <div class="footer-top">
     <div class="container">
-      <div class="row">
+      <div class="row" style="text-align: center">
 
-        <div class="col-lg-3 col-md-6 footer-info">
-          <h3>Kohli Company</h3>
-          <p>Kohli Company founded in 2006 is a group of businesses, that develop innovative Web-Products serving people worldwide, is now Kohli Media LLP - an Indian Limited Liability Partnership.</p>
+        <div class="col-lg-4 col-md-4 footer-info">
+          <h4>Support</h4>
+          <ul class="links">
+            <li><a href="#" target="_blank" >How it works</a></li>
+            <li><a href="#" target="_blank" >Contact</a></li>
+          </ul>
         </div>
 
-        <div class="col-lg-3 col-md-6 footer-links">
-          <h4>Useful Links</h4>
+        <div class="col-lg-4 col-md-4 footer-links">
+          <h4>Legal</h4>
           <ul class="links">
-            <li><i class="ion-ios-arrow-right"></i> <a href="http://www.kohli.studio/">Kohli Studio</a></li>
-            <li><i class="ion-ios-arrow-right"></i> <a href="http://www.kohli.productions/">Kohli Productions</a></li>
-            <li><i class="ion-ios-arrow-right"></i> <a href="https://www.kohlihosting.com/">Kohli Hosting</a></li>
+            <li> <a href="#" target="_blank" >Privacy Policy</a></li>
+            <li> <a href="#" target="_blank" >Terms of Service</a></li>
+          <!--  <li><i class="ion-ios-arrow-right"></i> <a href="https://www.kohlihosting.com/">Kohli Hosting</a></li>
             <li><i class="ion-ios-arrow-right"></i> <a href="http://www.kohliconnect.com/">Kohli Connect</a></li>
             <li><i class="ion-ios-arrow-right"></i> <a href="http://www.kohlimail.com/default.php">Kohli Mail</a></li>
             <li><i class="ion-ios-arrow-right"></i> <a href="http://hotjob.club/">HotJob Club</a></li>
             <li><i class="ion-ios-arrow-right"></i> <a href="http://www.kohlieducation.in/">Kohli Education</a></li>
             <li><i class="ion-ios-arrow-right"></i> <a href="https://www.kohliwebdesign.com/">Kohli WebDesign</a></li>
             <li><i class="ion-ios-arrow-right"></i> <a href="http://www.livedesk.pro/">Live Desk</a></li>
-
+          -->
           </ul>
         </div>
 
-        <div class="col-lg-3 col-md-6 footer-contact">
-          <h4>Contact Us</h4>
-          <p>
-            Kohli Media LLP. <br>
-SCO 31, Sector 86 <br>
-Mohali - 160062, India. <br>
-
-            <strong>Phone:</strong>+91-6280848783 <br>
-+1-347-632-8098<br>
-            <strong>Email:</strong> co [at] kohli.tel<br>
-          </p>
-
-          <div class="social-links">
-            <a href="https://twitter.com/KohliStudio" class="twitter"><i class="fa fa-twitter"></i></a>
-            <a href="https://www.facebook.com/KohliStudioIN/" class="facebook"><i class="fa fa-facebook"></i></a>
-            <a href="https://www.instagram.com/KohliStudio/" class="instagram"><i class="fa fa-instagram"></i></a>
-            <a href="https://www.youtube.com/KohliStudio" class="google-plus"><i class="fa fa-google-plus"></i></a>
-            <a href="https://www.linkedin.com/company/kohlicompany/" class="linkedin"><i class="fa fa-linkedin"></i></a>
-          </div>
+        <div class="col-lg-4 col-md-4 footer-contact">
+          <h4>Compare</h4>
+         <ul class="links">
+           <li><a href="#" target="_blank" >KPIN.IN vs bio.fm</a></li>
+           <li><a href="#" target="_blank" >KPIN.IN vs linktr.ee</a></li>
+         </ul>
 
         </div>
 
-        <div class="col-lg-3 col-md-6 footer-newsletter">
+      <!--  <div class="col-lg-3 col-md-6 footer-newsletter">
           <h4>Our Newsletter</h4>
           <p>Subscribe to receive new ideas, inspiration and our weekly news!</p>
           <form class="form" action="" method="post">
@@ -291,26 +285,45 @@ Mohali - 160062, India. <br>
 
             <button type="submit" class="btn btn-light" name="button">submit</button>
           </form>
-        </div>
+        </div>  -->
 
       </div>
     </div>
   </div>
+  <div class="social-links" style="text-align: center">
 
-  <div class="container" style="text-align: center">
-    <div class="copyright">
-      &copy; Copyright <strong>KPIN - Kohli Media LLP</strong>
+    <a href="https://twitter.com/KohliStudio" target="_blank" class="twitter icons"><span style="border-radius: 50%; font-size:20px; color: white"> <i class="fab fa-twitter"></i></span></a>
+    <a href="https://www.facebook.com/KohliStudioIN/" target="_blank"  class="facebook icons"><span style="color: white; border-radius: 50%; font-size: 20px"><i class="fab fa-facebook-f"></i></span></a>
+    <a href="https://www.instagram.com/KohliStudio/"  target="_blank" class="instagram icons"><span style="color: white; border-radius: 50%; font-size:20px;"> <i class="fab fa-instagram"></i></span></i></a>
+    <a href="https://www.youtube.com/KohliStudio" target="_blank"  class="google-plus icons"><span style="color: white; border-radius: 50%; font-size:20px;"> <i class="fab fa-youtube"></i></span></a>
+    <a href="https://www.linkedin.com/company/kohlicompany/" target="_blank"  class="linkedin icons"><span style="color: white; border-radius: 50%; font-size:20px;"> <i class="fab fa-linkedin"></i></span></a>
+  </div>
+
+  <div class="container " style="text-align: center; margin-top: 20px" >
+    <div class="copyright   " >
+      &copy; Copyright <strong>KPIN.IN - Kohli Media LLP</strong>
     </div>
-    <div class="credits">
+
+
+    <div class="credits  ">
       <!--
         All the links in the footer should remain intact.
         You can delete the links only if you purchased the pro version.
         Licensing information: https://bootstrapmade.com/license/
         Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
       -->
-      #MadeWithLove❤ By Kohli Studio
+      <span class="mwl">#MadeWithLove</span><span class="ks" style="color: white">&hearts; <a href="http://www.kohli.studio/">Kohli.Studio</span></a>
     </div>
   </div>
+
+
+
+
+
+
+
+
+
 </footer>
 </div>
 <script src="js/smooth-scroll.polyfills.min.js"></script>
