@@ -1,5 +1,19 @@
+@import url(//fonts.googleapis.com/css?family=Oregano|Merienda);
+
+.mwl {
+font-family: 'Merienda', cursive;
+}
+.ks {
+font-family: 'Oregano', cursive;
+font-size:18px;
+}
+.ks a{
+text-transform: none !important;
+color: white;
+}
+
 .body{
-  font-family: 'Actor', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 17px;
 }
 
@@ -26,16 +40,27 @@
   padding-top: 30px;
 }
 nav{
-  font-family: 'Concert One', cursive;
+  font-family: 'Bree Serif', serif;
   font-size: 20px;
 }
 .container .navbar-brand{
   font-size: 35px;
-  font-family: 'Aclonica', sans-serif;
+  font-family: 'Courgette', cursive;
 }
 .changecolor{
   color: #cc0064;
 }
 .links li a{
-  color: white
+  color: white;
+
+}
+.links li{
+    list-style-type: none;
+}
+.icons{
+  margin: 3px;
+}
+#footer{
+  margin-right: 0!important;
+  margin-left: 0!important;
 }
