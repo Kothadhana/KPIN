@@ -11,12 +11,39 @@ font-size:18px;
 text-transform: none !important;
 color: white;
 }
+.head{
+  text-align: center;
+  color: #cc0064;
 
+}
+.head h1{
+  font-weight: bold;
+}
 .body{
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
 }
+.mid-div1{
+  padding: 20px;
+  font-size: 19px;
+  background-color: rgb(81, 152, 114,);
+    opacity: 50;
 
+}
+
+.mid-content{
+  padding: 20px;
+}
+.mid-div1 h3, .mid-div1 h4{
+  font-weight: bold;
+}
+.mid-sec1{
+   background-color: rgb(64, 168, 196);
+   opacity: 70;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
 @media (min-width: 992px) {
 .rotateimg220 {
   -webkit-transform:rotate(-30deg);
@@ -25,9 +52,14 @@ color: white;
   -o-transform: rotate(-30deg);
   transform: rotate(-30deg);
 }
+
 .card{
   padding: 5px;
   min-height: 200px;
+}
+.card2{
+  padding: 5px;
+  min-height: 350px;
 }
 }
 #tm-section-2{
