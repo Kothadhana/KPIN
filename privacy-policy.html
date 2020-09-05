@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/tooplate-style.css">
+    <title>KPIN.IN</title>
+    <!--
+    Template 2107 New Spot
+	http://www.tooplate.com/view/2107-new-spot
+    -->
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/terms.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" integrity="sha384-3Nqiqht3ZZEO8FKj7GR1upiI385J92VwWNLj+FqHxtLYxd9l+WYpeqSOrLh0T12c" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/navigation.js">
+
+</script>
+<script type="text/javascript">
+/// some script
+
+// jquery ready start
+$(document).ready(function() {
+	// jQuery code
+
+	///////////////// fixed menu on scroll for desctop
+    if ($(window).width() > 992) {
+
+        var navbar_height =  $('.navbar').outerHeight();
+
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 300) {
+				 $('.navbar-wrap').css('height', navbar_height + 'px');
+                 $('#navbar_top').addClass("fixed-top");
+                 $('#navbar_top').removeClass("bg-primary");
+                    $('#navbar_top').addClass("bg-white");
+                $('.bg-white').addClass("shadow-lg");
+                 $(".nav-link , .navbar-brand").css('color','#cc0064');
+            }else{
+                $('#navbar_top').removeClass("bg-white");
+              $('#navbar_top').addClass("bg-primary");
+              $('#navbar_top').removeClass("fixed-top");
+              $('.navbar-wrap').css('height', 'auto');
+              $(".nav-link , .navbar-brand").css('color','white');
+            }
+        });
+    } // end if
+
+
+}); // jquery end
+</script>
+
+<style type="text/css">
+
+.fixed-top.navbar{ padding:0px;  }
+
+</style>
+</head>
+
+<body>
+<header>
+
+<!-- #header -->
+<div class="navbar-wrap">
+	<nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark bg-primary">
+	<div class="container">
+	  <a class="navbar-brand" href="#">KPIN</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="main_nav">
+
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item"><a class="nav-link" href="#"> Login</a></li>
+			<li class="nav-item"><a class="nav-link" href="#">Sign Up</a></li>
+		<!--	<li class="nav-item dropdown">
+				<a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown"> Dropdown right </a>
+			    <ul class="dropdown-menu dropdown-menu-right">
+				  <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+				  <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+			    </ul>
+			</li>  -->
+
+		</ul>
+
+	  </div> <!-- navbar-collapse.// -->
+	</div> <!-- container.// -->
+	</nav>
+</div>
+</header>
+<!--==========================
+  Header ends
+============================-->
+<!--==========================
+  main starts
+============================-->
+<main>
+  <section>
+    <div class="terms">
+      <div class="terms-img">
+        <img src="img/privacy.jpg" style="width: 100vw; height: 400px;" alt="TERMS AND CONDITIONS">
+      </div>
+      <div class="terms-content">
+         <h3>Disclosure of Data</h3>
+         <br>
+         <div class="termslist">
+           <ol class="list4">
+             <li>
+              <div class="">
+                <h5>Legal Requirements</h5>
+                <p>KPIN.In may disclose your Personal Data in the good faith belief that such action is necessary to:</p>
+                <ul class="list2">
+                  <li>
+                    <p>To comply with a legal obligation or legal Liability.</p>
+                  </li>
+                  <li>
+                    <p>To protect and defend the rights or property of it’s parent company Kohli Media LLP.</p>
+                  </li>
+                  <li>
+                    <p>To prevent or investigate possible wrongdoing in connection with the Service</p>
+                  </li>
+                  <li>
+
+                      <p>To protect the personal safety of users or the public</p>
+
+                  </li>
+
+                </ul>
+
+              </div>
+            </li>
+             <li>
+                <div class="">
+                  <h5>Security of Data </h5>
+                  <p>The security of your data is very important to us and  you should acknowledge that no method of transmission over the Internet is 100% secure. While we strive to use commercially capable means to protect your Personal Data, we cannot guarantee its absolute safety.</p>
+                </div>
+            </li>
+             <li>
+                   <div class="">
+                     <h5>Payments</h5>
+                      <p>We may provide paid services within the Service. In that case, we use third-party services for payment processing. We will not store or collect any of  your payment details. That information is provided directly to our third-party payment processors whose use of your personal information is governed by their Privacy Policy.</p>
+                   </div>
+              </li>
+             <li>
+                 <div class="">
+                   <h5>KPIN profiles</h5>
+                   <p>KPIN profiles are totally formed by the user’s who built the profile. Any links, images, websites, or text are not operated by KPIN.IN and KPIN.IN is not liable for anything you may click on.</p>
+                    <h6>Types of Data Collected</h6>
+                    <ol class="list5">
+                      <li>
+                        <div class="">
+                          <h6>Personal Data</h6>
+                          <p>While using our Service, we may ask you to provide us with certain personal information that can be used to contact and identify you. Personal information may include:</p>
+                          <ul class="list2">
+                             <li>Email address</li>
+                             <li>First name and last name</li>
+                             <li>Social media URLs or Usernames</li>
+                             <li>Credit Card expiration/type/name</li>
+                          </ul>
+                          <p>We may use above mentioned or other  personal details of yours  to contact you with newsletters, marketing or promotional materials.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="">
+                          <h6>User Data</h6>
+                          <p>We may also collect information how the Service is accessed and used by you. This User Data may include information such as your computer's IP address, browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other data.</p>
+                          <p>Your IP address is never stored in our database, we use your IP to obtain general information about your profile such as approximate geo-location e.g country or city.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="">
+                          <h6>Location Data</h6>
+                          <p>We may use and store information about your location if you give us permission to do so. We use this data  to improve and customize our Service. We may use and store information about visitors to KPIN.IN Profiles. This is anonymised, removing any personal information about the user as we are interested in the ‘how’ more than the ‘who’.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="">
+                          <h6>Tracking Cookies Data</h6>
+                          <p>We use cookies and similar tracking technologies to track the activity on our Service and hold certain information. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are, tags, and scripts to collect and track information and to improve and analyze our Service. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="">
+                          <h6>Changes to This Privacy Policy</h6>
+                          <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes</p>
+                        </div>
+                      </li>
+                    </ol>
+
+                 </div>
+              </li>
+
+           </ol>
+         </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!--==========================
+  main ends
+============================-->
+<!--==========================
+  Footer starts
+============================-->
+<footer id="footer" class="bg-primary " style="color: white !important; margin: 20px; padding: 20px;">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row" style="text-align: center">
+
+        <div class="col-lg-4 col-md-4 footer-info">
+          <h4>Support</h4>
+          <ul class="links">
+            <li><a href="#" target="_blank" >How it works</a></li>
+            <li><a href="#" target="_blank" >Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-4 footer-links">
+          <h4>Legal</h4>
+          <ul class="links">
+            <li> <a href="privacy-policy.html" target="_blank" >Privacy Policy</a></li>
+            <li> <a href="terms.html" target="_blank" >Terms of Service</a></li>
+
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-4 footer-contact">
+          <h4>Compare</h4>
+         <ul class="links">
+           <li><a href="#" target="_blank" >KPIN.IN vs bio.fm</a></li>
+           <li><a href="#" target="_blank" >KPIN.IN vs linktr.ee</a></li>
+         </ul>
+
+        </div>
+
+      <!--  <div class="col-lg-3 col-md-6 footer-newsletter">
+          <h4>Our Newsletter</h4>
+          <p>Subscribe to receive new ideas, inspiration and our weekly news!</p>
+          <form class="form" action="" method="post">
+            <div class="form-group">
+              <input type="email" name="email" class="form-control">
+            </div>
+
+
+            <button type="submit" class="btn btn-light" name="button">submit</button>
+          </form>
+        </div>  -->
+
+      </div>
+    </div>
+  </div>
+  <div class="social-links" style="text-align: center">
+
+    <a href="https://twitter.com/KohliStudio" target="_blank" class="twitter icons"><span style="border-radius: 50%; font-size:20px; color: white"> <i class="fab fa-twitter"></i></span></a>
+    <a href="https://www.facebook.com/KohliStudioIN/" target="_blank"  class="facebook icons"><span style="color: white; border-radius: 50%; font-size: 20px"><i class="fab fa-facebook-f"></i></span></a>
+    <a href="https://www.instagram.com/KohliStudio/"  target="_blank" class="instagram icons"><span style="color: white; border-radius: 50%; font-size:20px;"> <i class="fab fa-instagram"></i></span></i></a>
+    <a href="https://www.youtube.com/KohliStudio" target="_blank"  class="google-plus icons"><span style="color: white; border-radius: 50%; font-size:20px;"> <i class="fab fa-youtube"></i></span></a>
+    <a href="https://www.linkedin.com/company/kohlicompany/" target="_blank"  class="linkedin icons"><span style="color: white; border-radius: 50%; font-size:20px;"> <i class="fab fa-linkedin"></i></span></a>
+  </div>
+
+  <div class="container " style="text-align: center; margin-top: 20px" >
+    <div class="copyright   " >
+      &copy; Copyright <strong>KPIN.IN - Kohli Media LLP</strong>
+    </div>
+
+
+    <div class="credits  ">
+      <!--
+        All the links in the footer should remain intact.
+        You can delete the links only if you purchased the pro version.
+        Licensing information: https://bootstrapmade.com/license/
+        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
+      -->
+      <span class="mwl">#MadeWithLove</span><span class="ks" style="color: white">&hearts; <a href="http://www.kohli.studio/">Kohli.Studio</span></a>
+    </div>
+  </div>
+
+</footer>
+</div>
+<script src="js/smooth-scroll.polyfills.min.js"></script>
+<!-- https://github.com/cferdinandi/smooth-scroll -->
+<script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+        easing: 'easeInOutQuart',
+        speed: 800
+    });
+</script>
+</body>
+</html>

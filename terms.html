@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/tooplate-style.css">
+    <title>KPIN.IN</title>
+    <!--
+    Template 2107 New Spot
+	http://www.tooplate.com/view/2107-new-spot
+    -->
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/terms.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" integrity="sha384-3Nqiqht3ZZEO8FKj7GR1upiI385J92VwWNLj+FqHxtLYxd9l+WYpeqSOrLh0T12c" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/navigation.js">
+
+</script>
+<script type="text/javascript">
+/// some script
+
+// jquery ready start
+$(document).ready(function() {
+	// jQuery code
+
+	///////////////// fixed menu on scroll for desctop
+    if ($(window).width() > 992) {
+
+        var navbar_height =  $('.navbar').outerHeight();
+
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 300) {
+				 $('.navbar-wrap').css('height', navbar_height + 'px');
+                 $('#navbar_top').addClass("fixed-top");
+                 $('#navbar_top').removeClass("bg-primary");
+                    $('#navbar_top').addClass("bg-white");
+                $('.bg-white').addClass("shadow-lg");
+                 $(".nav-link , .navbar-brand").css('color','#cc0064');
+            }else{
+                $('#navbar_top').removeClass("bg-white");
+              $('#navbar_top').addClass("bg-primary");
+              $('#navbar_top').removeClass("fixed-top");
+              $('.navbar-wrap').css('height', 'auto');
+              $(".nav-link , .navbar-brand").css('color','white');
+            }
+        });
+    } // end if
+
+
+}); // jquery end
+</script>
+
+<style type="text/css">
+
+.fixed-top.navbar{ padding:0px;  }
+
+</style>
+</head>
+
+<body>
+<header>
+
+<!-- #header -->
+<div class="navbar-wrap">
+	<nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark bg-primary">
+	<div class="container">
+	  <a class="navbar-brand" href="#">KPIN</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="main_nav">
+
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item"><a class="nav-link" href="#"> Login</a></li>
+			<li class="nav-item"><a class="nav-link" href="#">Sign Up</a></li>
+		<!--	<li class="nav-item dropdown">
+				<a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown"> Dropdown right </a>
+			    <ul class="dropdown-menu dropdown-menu-right">
+				  <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+				  <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+			    </ul>
+			</li>  -->
+
+		</ul>
+
+	  </div> <!-- navbar-collapse.// -->
+	</div> <!-- container.// -->
+	</nav>
+</div>
+</header>
+<!--==========================
+  Header ends
+============================-->
+<!--==========================
+  main starts
+============================-->
+<main>
+  <section>
+    <div class="terms">
+      <div class="terms-img">
+        <img src="img/terms.jpg" style="width: 100vw; height: 400px;" alt="TERMS AND CONDITIONS">
+      </div>
+      <div class="terms-content">
+         <h3>General Terms and Conditions</h3>
+         <br>
+         <div class="termslist">
+           <ul class="list1">
+             <li>
+              <div class="">
+                <h5>Content</h5>
+                <p>Your access to use  of the Service is conditioned on your acceptance and compliance with these Terms. These Terms apply to all visitors, users and others who access or use our services on KPIN.IN. You warrant that you are 18 years or older and you are legally capable of entering into binding contracts. If you are under 18 years old, you warrant that you have obtained consent from your parents or guardian and they agree to be bound by these Terms on your behalf. If you disagree with any part of the terms then you may not access the Service.</p>
+                <ul class="list2">
+                  <li>
+                    <p>Our Service allows you to add content, links, run campaigns, share and otherwise use certain information like, text, graphics, videos, or other material . For which you are solely responsible, including its legality, reliability, and appropriateness.</p>
+                  </li>
+                  <li>
+                    <p>You agree with this license which includes the right for us to make your Content available to other users of the Service, who may also use your Content (within boundation of these Terms).</p>
+                  </li>
+                  <li>
+                    <div class="">
+                      <p>You represent and guarantee that:</p>
+                      <ol class="list3">
+                        <li>the Content you post is your own or you have the full right to use it and also grant us the rights and license as provided in these Terms</li>
+                        <li>While using our services your content should not violate the privacy rights, publicity rights, copyrights, contract rights or any other rights of any person.</li>
+                      </ol>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="">
+                      <p>Further, you warrant that:</p>
+                      <ol class="list3">
+                        <li>the Content will not cause you or us to breach any law, regulation, rule, code or other legal obligation.</li>
+                        <li> the Content you post will not be anyhow considered to be obscene, inappropriate, defamatory, disparaging, indecent, seditious, offensive, pornographic, threatening, abusive, liable to incite racial hatred, discriminatory, blasphemous, in breach of confidence or in breach of privacy</li>
+                        <li>the Content can not be unauthorised advertising </li>
+                        <li>the Content does not contain software viruses or any other computer code, files, or programs designed to interrupt, destroy, or limit the functionality of any computer software, hardware or telecommunications equipment</li>
+                        <li>the Content does not bring us or our Services any harm or  disruption.</li>
+
+                      </ol>
+                    </div>
+                  </li>
+                </ul>
+                <p>You acknowledge and agree that all your content  provided on the Service will be publicly available information and you bear the risks involved with such public display.</p>
+
+              </div>
+            </li>
+             <li>
+                <div class="">
+                  <h5>Account </h5>
+                  <p>When you create an account with us, you must provide us information that is accurate, complete, and current at all times. Failure to do so constitutes a breach of the Terms, which may result in immediate termination of your account on our Service.</p>
+                </div>
+            </li>
+             <li>
+                   <div class="">
+                     <h5>Links To other websites</h5>
+                      <p>KPIN may contain third party links which are not owned by us.Hence,  We strongly advise you to read terms and conditions and privacy policies of any third-party web sites or services that you are using in your content.</p>
+                   </div>
+              </li>
+             <li>
+                 <div class="">
+                   <h5>Termination</h5>
+                   <p>We may terminate or suspend your account immediately, without prior notice or liability, for any reason whatsoever, if you breach any of the mentioned Terms & Conditions.</p>
+                 </div>
+              </li>
+             <li>
+                 <div class="">
+                   <h5>Limitation Of Liability</h5>
+                   <p>You understand that we shall not be liable for any damages suffered by you as a result of using the service, copying, distributing, or downloading Content from the Service.</p>
+
+                 </div>
+              </li>
+             <li>
+                  <div class="">
+                    <h5>Changes</h5>
+                    <p>We reserve the right, at our sole discretion, to modify or replace these Terms. If a revision is made we will try to provide at least 15 days notice prior to any new terms taking effect.</p>
+
+                  </div>
+               </li>
+             <li>
+               <div class="">
+                 <h5>Contact Us</h5>
+                   <p>If you have any questions about these Terms, please contact us.</p>
+
+               </div>
+             </li>
+           </ul>
+         </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!--==========================
+  main ends
+============================-->
+<!--==========================
+  Footer starts
+============================-->
+<footer id="footer" class="bg-primary " style="color: white !important; margin: 20px; padding: 20px;">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row" style="text-align: center">
+
+        <div class="col-lg-4 col-md-4 footer-info">
+          <h4>Support</h4>
+          <ul class="links">
+            <li><a href="#" target="_blank" >How it works</a></li>
+            <li><a href="#" target="_blank" >Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-4 footer-links">
+          <h4>Legal</h4>
+          <ul class="links">
+            <li> <a href="privacy-policy.html" target="_blank" >Privacy Policy</a></li>
+            <li> <a href="terms.html" target="_blank" >Terms of Service</a></li>
+
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-4 footer-contact">
+          <h4>Compare</h4>
+         <ul class="links">
+           <li><a href="#" target="_blank" >KPIN.IN vs bio.fm</a></li>
+           <li><a href="#" target="_blank" >KPIN.IN vs linktr.ee</a></li>
+         </ul>
+
+        </div>
+
+      <!--  <div class="col-lg-3 col-md-6 footer-newsletter">
+          <h4>Our Newsletter</h4>
+          <p>Subscribe to receive new ideas, inspiration and our weekly news!</p>
+          <form class="form" action="" method="post">
+            <div class="form-group">
+              <input type="email" name="email" class="form-control">
+            </div>
+
+
+            <button type="submit" class="btn btn-light" name="button">submit</button>
+          </form>
+        </div>  -->
+
+      </div>
+    </div>
+  </div>
+  <div class="social-links" style="text-align: center">
+
+    <a href="https://twitter.com/KohliStudio" target="_blank" class="twitter icons"><span style="border-radius: 50%; font-size:20px; color: white"> <i class="fab fa-twitter"></i></span></a>
+    <a href="https://www.facebook.com/KohliStudioIN/" target="_blank"  class="facebook icons"><span style="color: white; border-radius: 50%; font-size: 20px"><i class="fab fa-facebook-f"></i></span></a>
+    <a href="https://www.instagram.com/KohliStudio/"  target="_blank" class="instagram icons"><span style="color: white; border-radius: 50%; font-size:20px;"> <i class="fab fa-instagram"></i></span></i></a>
+    <a href="https://www.youtube.com/KohliStudio" target="_blank"  class="google-plus icons"><span style="color: white; border-radius: 50%; font-size:20px;"> <i class="fab fa-youtube"></i></span></a>
+    <a href="https://www.linkedin.com/company/kohlicompany/" target="_blank"  class="linkedin icons"><span style="color: white; border-radius: 50%; font-size:20px;"> <i class="fab fa-linkedin"></i></span></a>
+  </div>
+
+  <div class="container " style="text-align: center; margin-top: 20px" >
+    <div class="copyright   " >
+      &copy; Copyright <strong>KPIN.IN - Kohli Media LLP</strong>
+    </div>
+
+
+    <div class="credits  ">
+      <!--
+        All the links in the footer should remain intact.
+        You can delete the links only if you purchased the pro version.
+        Licensing information: https://bootstrapmade.com/license/
+        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
+      -->
+      <span class="mwl">#MadeWithLove</span><span class="ks" style="color: white">&hearts; <a href="http://www.kohli.studio/">Kohli.Studio</span></a>
+    </div>
+  </div>
+
+</footer>
+</div>
+<script src="js/smooth-scroll.polyfills.min.js"></script>
+<!-- https://github.com/cferdinandi/smooth-scroll -->
+<script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+        easing: 'easeInOutQuart',
+        speed: 800
+    });
+</script>
+</body>
+</html>
