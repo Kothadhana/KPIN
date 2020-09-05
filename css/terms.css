@@ -1,0 +1,29 @@
+
+.list1 li{
+  list-style-type: none;
+}
+
+.list2 li{
+  list-style-type: disc;
+
+}
+.list3 li{
+  list-style-type: lower-roman;
+
+}
+.terms-content{
+  margin: 20px ;
+
+}
+
+.list2 , .list5, .list3 , .list4 {
+     margin-left:3em;
+}
+@media (min-width: 992px) {
+  .terms-content{
+    margin: 20px 20vw;
+      border: 1px solid black;
+      padding: 15px;
+  }
+
+}
