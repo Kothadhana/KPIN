@@ -11,6 +11,10 @@ font-size:18px;
 text-transform: none !important;
 color: white;
 }
+.nav-link:hover{
+  color:#cc0064 !important ;
+  font-weight: bold;
+}
 .head{
   text-align: center;
   color: #cc0064;
@@ -37,6 +41,7 @@ color: white;
 .mid-div1 h3, .mid-div1 h4{
   font-weight: bold;
 }
+
 .mid-sec1{
    background-color: rgb(64, 168, 196);
    opacity: 70;

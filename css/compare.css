@@ -1,0 +1,35 @@
+.compare{
+  text-align: center;
+  margin: 30px auto;
+}
+
+p{
+    font-weight: 400;
+}
+
+thead tr th{
+  text-align: center;
+}
+.compare-content{
+  text-align: left;
+  max-width: 900px;
+  margin: auto;
+  font-weight: 400!important;
+}
+.compare-img{
+
+  margin: auto;
+  text-align: center;
+}
+.compare-img img{
+  max-width: 900px;
+  vertical-align: middle;
+  width: 80vw;
+  margin: auto;
+}
+@media (max-width: 992px){
+  .compare-main{
+      margin: 20px;
+  }
+
+}
