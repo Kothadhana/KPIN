@@ -6,8 +6,30 @@
 p{
     font-weight: 400;
 }
+.container .row{
+  border-bottom: 0.1px solid #e0ece4;
+  margin:  5px auto;
+  padding: 5px inherit;
+  min-height: 40px;
+}
+.col-6{
+  border-left: 0.1px solid #e0ece4;
+  border-right: 0.1px solid #e0ece4;
 
-thead tr th{
+}
+.row2 {
+  border: 0.1px solid #e0ece4;
+  padding: 5px;
+  font-weight: bold;
+
+}
+.thead1{
+  border-left: 0;
+}
+.thead2{
+  border-right: 0;
+}
+.thead{
   text-align: center;
 }
 .compare-content{
