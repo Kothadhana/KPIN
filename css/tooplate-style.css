@@ -43,14 +43,15 @@ footer{
 }
 
 .tm-section-1 {
-  height: 750px;
+  background-color: #ed6663;
+/*  height: 750px;
   background-image: url(../img/bg1.jpg) ;
   background-size: cover;
   /*  -webkit-clip-path: polygon(0px 0px, 100% 0px, 100% 84%, 0px 100%);
-  clip-path: polygon(0px 0px, 100% 0px, 100% 84%, 0px 100%);*/
+  clip-path: polygon(0px 0px, 100% 0px, 100% 84%, 0px 100%);
   background-position: center -95px;
  padding-top: 30px;
-   background-repeat: no-repeat;
+   background-repeat: no-repeat; */
 }
 
 .tm-section-3 {
