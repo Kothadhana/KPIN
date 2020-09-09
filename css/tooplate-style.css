@@ -33,7 +33,9 @@ body {
   color: #cc0064;
   font-size: 3rem;
 }
-
+footer{
+  margin-bottom: 0;
+}
 .tm-site-subtitle {
   color: #0095bf;
   font-size: 1.2rem;
@@ -42,12 +44,13 @@ body {
 
 .tm-section-1 {
   height: 750px;
-  background-image: url(../img/section1_bg.jpg) ;
+  background-image: url(../img/bg1.jpg) ;
   background-size: cover;
   /*  -webkit-clip-path: polygon(0px 0px, 100% 0px, 100% 84%, 0px 100%);
   clip-path: polygon(0px 0px, 100% 0px, 100% 84%, 0px 100%);*/
   background-position: center -95px;
  padding-top: 30px;
+   background-repeat: no-repeat;
 }
 
 .tm-section-3 {
