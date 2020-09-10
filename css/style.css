@@ -1,5 +1,10 @@
 @import url(//fonts.googleapis.com/css?family=Oregano|Merienda);
 
+p{
+    font-weight: 400;
+}
+
+
 .mwl {
 font-family: 'Merienda', cursive;
 }
@@ -34,6 +39,16 @@ color: white;
     opacity: 50;
 
 }
+.gifcontainer{
+  margin: 0;
+  width: 100vw;
+  margin-right: 0!important;
+  margin-left: 0!important;
+}
+.gifrow {
+  margin-right: 0!important;
+  margin-left: 0!important;
+}
 
 .mid-content{
   padding: 20px;
@@ -49,6 +64,62 @@ color: white;
   color: white;
   padding: 20px;
 }
+.tm-container{
+  width: 100% !important;
+  margin-right: 0!important;
+  margin-left: 0!important;
+}
+.gifcontent{
+  background-color: white;
+    border-radius: 50px;
+}
+.gifcontent div{
+  padding-top: 30px;
+
+}
+@media (max-width: 992px) {
+  .gifcontent{
+      width: 80vw!important;
+      margin: auto;
+  }
+
+}
+@media (min-width: 992px) {
+  .gifcontent{
+    background-color: white;
+    border-radius: 0%;
+    border-top-right-radius: 35%;
+    border-bottom-left-radius: 50%;
+
+  }
+  .gifcontent2{
+    background-color: white;
+    border-radius: 0%;
+    border-radius: 25%;
+
+
+  }
+  .gifcontent div{
+    margin: 40px;
+  }
+}
+
+.gifcontainer{
+  width: 100vw;
+  margin: auto 0;
+}
+.gifcontainer,.gifrow{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.gifrow{
+  width: 100%;
+
+}
+.gifrow div img{
+  width: 80vw;
+
+}
 @media (min-width: 992px) {
 .rotateimg220 {
   -webkit-transform:rotate(-30deg);
@@ -57,7 +128,10 @@ color: white;
   -o-transform: rotate(-30deg);
   transform: rotate(-30deg);
 }
+.gifrow div img{
+  width: 40vw;
 
+}
 .card{
   padding: 5px;
   min-height: 200px;
@@ -96,6 +170,25 @@ nav{
 }
 .icons{
   margin: 3px;
+}
+.last-sec{
+  font-weight: 500;
+  font-size:
+}
+.last-sec div{
+  max-width: 900px;
+  min-width: 400px;
+  margin: auto;
+}
+.last-sec div .btn{
+  background-color: #1d2d50;
+  color: white;
+
+}
+.last-sec div .btn:hover{
+  background-color: #1d2d50;
+  color: white;
+  font-weight: bold;
 }
 #footer{
   margin-right: 0!important;
