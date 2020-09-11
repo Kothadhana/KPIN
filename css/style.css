@@ -173,12 +173,13 @@ nav{
 }
 .last-sec{
   font-weight: 500;
-  font-size:
+    margin-bottom: 0;
 }
 .last-sec div{
   max-width: 900px;
   min-width: 400px;
   margin: auto;
+
 }
 .last-sec div .btn{
   background-color: #1d2d50;
