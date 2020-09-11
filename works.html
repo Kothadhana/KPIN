@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/tooplate-style.css">
+    <title>KPIN.IN</title>
+    <!--
+    Template 2107 New Spot
+	http://www.tooplate.com/view/2107-new-spot
+    -->
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" integrity="sha384-3Nqiqht3ZZEO8FKj7GR1upiI385J92VwWNLj+FqHxtLYxd9l+WYpeqSOrLh0T12c" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/navigation.js">
+
+</script>
+<script type="text/javascript">
+/// some script
+
+// jquery ready start
+$(document).ready(function() {
+	// jQuery code
+
+	///////////////// fixed menu on scroll for desctop
+    if ($(window).width() > 992) {
+
+        var navbar_height =  $('.navbar').outerHeight();
+
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 300) {
+				 $('.navbar-wrap').css('height', navbar_height + 'px');
+                 $('#navbar_top').addClass("fixed-top");
+                 $('#navbar_top').removeClass("bg-primary");
+                    $('#navbar_top').addClass("bg-white");
+                $('.bg-white').addClass("shadow-lg");
+                 $(".nav-link , .navbar-brand").css('color','#cc0064');
+            }else{
+                $('#navbar_top').removeClass("bg-white");
+              $('#navbar_top').addClass("bg-primary");
+              $('#navbar_top').removeClass("fixed-top");
+              $('.navbar-wrap').css('height', 'auto');
+              $(".nav-link , .navbar-brand").css('color','white');
+
+            }
+        });
+    } // end if
+
+
+}); // jquery end
+</script>
+
+<style type="text/css">
+
+.fixed-top.navbar{ padding:0px;  }
+
+</style>
+</head>
+<body>
+
+<header>
+
+<div class="navbar-wrap">
+	<nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark bg-primary">
+	<div class="container">
+	  <a class="navbar-brand" href="index.html">KPIN</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="main_nav">
+
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item"><a class="nav-link" href="#"> Login</a></li>
+			<li class="nav-item"><a class="nav-link" href="#">Sign Up</a></li>
+		<!--	<li class="nav-item dropdown">
+				<a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown"> Dropdown right </a>
+			    <ul class="dropdown-menu dropdown-menu-right">
+				  <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+				  <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+			    </ul>
+			</li>  -->
+
+		</ul>
+
+	  </div> <!-- navbar-collapse.// -->
+	</div> <!-- container.// -->
+	</nav>
+</div>
+
+</header>
+<!-- #header -->
+
+
+<body class="body">
+
+<br>
+
+
+<div class="head">
+    <h3 style="font-weight: bold">HOW IT WORKS?</h3>
+</div>
+
+<section class="sec4">
+  <div class="container-fluid" >
+
+
+    <div class="row">
+
+      <div class=" col-lg-4 col-md-12 col-sm-12 col-xsm-12 service-main wow bounceInUp" data-wow-duration="1.4s">
+
+          <div class="card card2 shadow-lg p-3 mb-5 bg-white rounded">
+              <header>
+                  <h2 class="tm-color-primary">Create a Project</h2>
+              </header>
+              <p>Give an interesting name to it.Select whether you want a Bio page or just want to shorten a link to add into your instagram profile.</p>
+
+          </div>
+
+
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 col-xsm-12 service-main wow bounceInUp" data-wow-duration="1.4s">
+        <div class="card card2 shadow-lg p-3 mb-5 bg-white rounded">
+            <header>
+                <h2 class="tm-color-primary">Created A Short Link</h2>
+            </header>
+            <p>You are ready to share it on your favorite platforms.Now you can check your stats anytime and optimize your content.</p>
+
+        </div>
+
+      </div>
+
+      <div class="col-lg-4 col-md-12  col-sm-12 col-xsm-12 service-main wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+        <div class="card  card2 shadow-lg p-3 mb-5 bg-white rounded">
+            <header>
+                <h2 class="tm-color-primary">Created a Bio page, Need Help Setting it?</h2>
+            </header>
+            <p>Give a name to your Bio page, give a beautiful description and connect all your social media handles .Isn’t it so easy? You got your very first Bio page ready in minutes. Update it anytime you want and share it all over the internet world and grab more viewers.</p>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============
+  Try it for free section
+  =============== -->
+
+  <section class="bg-primary last-sec" >
+    <br>
+    <div class="" style="color: white; text-align: center">
+      <h2 style="font-weight: bold">Try it for free</h2>
+      <p>Thousands of people use bio as a simple way to build their own personal website in seconds. Create your own meaningful link in bio today for free. Join for free</p>
+      <a href="#" class="btn">Get Started for free</a>
+    </div>
+  <br>
+  </section>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer" class="" style="background-color: #111d5e; color: white !important; margin: 0px;  padding: 20px;">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row" style="text-align: center">
+
+          <div class="col-lg-4 col-md-4 footer-info">
+            <h4>Support</h4>
+            <ul class="links">
+              <li><a href="works.html" target="_blank" >How it works</a></li>
+              <li><a href="#" target="_blank" >Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-4 footer-links">
+            <h4>Legal</h4>
+            <ul class="links">
+              <li> <a href="privacy-policy.html" target="_blank" >Privacy Policy</a></li>
+              <li> <a href="terms.html" target="_blank" >Terms of Service</a></li>
+            <!--  <li><i class="ion-ios-arrow-right"></i> <a href="https://www.kohlihosting.com/">Kohli Hosting</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="http://www.kohliconnect.com/">Kohli Connect</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="http://www.kohlimail.com/default.php">Kohli Mail</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="http://hotjob.club/">HotJob Club</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="http://www.kohlieducation.in/">Kohli Education</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="https://www.kohliwebdesign.com/">Kohli WebDesign</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="http://www.livedesk.pro/">Live Desk</a></li>
+            -->
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-4 footer-contact">
+            <h4>Compare</h4>
+           <ul class="links">
+             <li><a href="#" target="_blank" >KPIN.IN vs bio.fm</a></li>
+             <li><a href="kpinVslinktree.html" target="_blank" >KPIN.IN vs linktr.ee</a></li>
+           </ul>
+
+          </div>
+
+        <!--  <div class="col-lg-3 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Subscribe to receive new ideas, inspiration and our weekly news!</p>
+            <form class="form" action="" method="post">
+              <div class="form-group">
+                <input type="email" name="email" class="form-control">
+              </div>
+
+
+              <button type="submit" class="btn btn-light" name="button">submit</button>
+            </form>
+          </div>  -->
+
+        </div>
+      </div>
+    </div>
+    <div class="social-links" style="text-align: center">
+
+      <a href="https://twitter.com/KohliStudio" target="_blank" class="twitter icons"><span style="border-radius: 50%; font-size:20px; color: white"> <i class="fab fa-twitter"></i></span></a>
+      <a href="https://www.facebook.com/KohliStudioIN/" target="_blank"  class="facebook icons"><span style="color: white; border-radius: 50%; font-size: 20px"><i class="fab fa-facebook-f"></i></span></a>
+      <a href="https://www.instagram.com/KohliStudio/"  target="_blank" class="instagram icons"><span style="color: white; border-radius: 50%; font-size:20px;"> <i class="fab fa-instagram"></i></span></i></a>
+      <a href="https://www.youtube.com/KohliStudio" target="_blank"  class="google-plus icons"><span style="color: white; border-radius: 50%; font-size:20px;"> <i class="fab fa-youtube"></i></span></a>
+      <a href="https://www.linkedin.com/company/kohlicompany/" target="_blank"  class="linkedin icons"><span style="color: white; border-radius: 50%; font-size:20px;"> <i class="fab fa-linkedin"></i></span></a>
+    </div>
+
+    <div class="container " style="text-align: center; margin-top: 20px" >
+      <div class="copyright   " >
+        &copy; Copyright <strong>KPIN.IN - Kohli Media LLP</strong>
+      </div>
+
+
+      <div class="credits  ">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
+        -->
+        <span class="mwl">#MadeWithLove</span><span class="ks" style="color: white">&hearts; <a href="http://www.kohli.studio/">Kohli.Studio</span></a>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+  </footer>
+  </div>
+  <script src="js/smooth-scroll.polyfills.min.js"></script>
+  <!-- https://github.com/cferdinandi/smooth-scroll -->
+  <script>
+      var scroll = new SmoothScroll('a[href*="#"]', {
+          easing: 'easeInOutQuart',
+          speed: 800
+      });
+  </script>
+  </body>
+  </html>
