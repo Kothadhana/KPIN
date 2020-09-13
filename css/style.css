@@ -3,8 +3,36 @@
 p{
     font-weight: 400;
 }
+.features-section .row {
+  max-width: 700px;
+  margin: auto;
 
+}
+.features-section{
+  background-color: #dddddd;
+  margin: 0;
+}
+.change-to-bold{
+  font-weight: bold;
+}
+.features-section .row .col-md-12 p{
+  padding: 5px;
+}
+.features-section .row .feature-img, .features-section .row .feature-content{
 
+  padding: 0;
+  
+}
+.features-section .row .col-md-12 img{
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.features-section .row{
+  background-color: #3b2e5a !important;
+  color: white;
+  margin: 20px auto;
+}
 .mwl {
 font-family: 'Merienda', cursive;
 }
